@@ -1,4 +1,6 @@
-# TypeScript and GraphQL Example
+# NextJS with TypeScript and GraphQL Example
+
+Created with LabD Cookiecutter NextJS + With-TypeScript-GraphQL example (https://github.com/zeit/next.js/tree/master/examples/with-typescript-graphql).
 
 One of the strengths of GraphQL is [enforcing data types on runtime](https://graphql.github.io/graphql-spec/June2018/#sec-Value-Completion). Further, TypeScript and [GraphQL Code Generator](https://graphql-code-generator.com/) (graphql-codegen) make it safer by typing data statically, so you can write truly type-protected code with rich IDE assists.
 
@@ -14,47 +16,19 @@ const  News: React.FC = () => {
 }
 ```
 
-## Deploy your own
+## Usage
 
-Deploy the example using [ZEIT Now](https://zeit.co/now):
-
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/zeit/next.js/tree/canary/examples/with-typescript-graphql)
-
-## How to use
-
-### Using `create-next-app`
-
-Execute [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Start a development server with the following command:
 
 ```bash
-npm init next-app --example with-typescript-graphql with-typescript-graphql-app
-# or
-yarn create next-app --example with-typescript-graphql with-typescript-graphql-app
-```
-
-### Download manually
-
-Download the example:
-
-```bash
-curl https://codeload.github.com/zeit/next.js/tar.gz/canary | tar -xz --strip=2 next.js-canary/examples/with-typescript-graphql
-cd with-typescript-graphql
-```
-
-Install it and run:
-
-```bash
-npm install
-npm run dev
-# or
-yarn
 yarn dev
 ```
 
-Deploy it to the cloud with [now](https://zeit.co/now) ([download](https://zeit.co/download)):
+Start a production build and server with the following commands:
 
 ```bash
-now
+yarn build
+yarn start
 ```
 
 ## Notes
